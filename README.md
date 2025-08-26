@@ -6,7 +6,7 @@ A powerful Node.js toolkit for running BigQuery analytics with cost protection, 
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/bigquery-cli-toolkit.git
+git clone https://github.com/wonderwhy-er/bigquery-cli-toolkit.git
 cd bigquery-cli-toolkit
 
 # Test installation
@@ -364,7 +364,7 @@ gcloud config set project your-project-id
 ### Development Setup
 ```bash
 # Clone and setup
-git clone https://github.com/your-username/bigquery-cli-toolkit.git
+git clone https://github.com/wonderwhy-er/bigquery-cli-toolkit.git
 cd bigquery-cli-toolkit
 
 # Test installation
