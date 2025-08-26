@@ -97,23 +97,8 @@ npm run demo
 node test-installation.js
 ```
 
-### Step 2: Authenticate with Google Cloud
-```bash
-# Install Google Cloud SDK (if not already installed)
-# macOS: brew install google-cloud-sdk
-# Windows: Download from https://cloud.google.com/sdk/
-# Linux: curl https://sdk.cloud.google.com | bash
 
-# Authenticate and set up your project
-gcloud auth login
-gcloud config set project YOUR_PROJECT_ID
-gcloud auth application-default login
-
-# Verify BigQuery access
-bq ls
-```
-
-### Step 3: Run Interactive Demo (Get Results Immediately!)
+### Step 2: Run Interactive Demo (Get Results Immediately!)
 ```bash
 # 🎯 NEW: Run the interactive demo to see everything in action
 node interactive-demo.js
@@ -141,7 +126,7 @@ node run-query.js queries/examples/public-nyc-taxi-insights.sql
 node run-query.js queries/examples/query-performance.sql
 ```
 
-### Step 4: Real-World Examples
+### Step 3: Real-World Examples
 Choose your use case:
 
 #### 📊 **E-commerce Analytics** (if you have transaction data)
@@ -168,7 +153,7 @@ node run-query.js queries/examples/cost-analysis.sql --output cost-report.csv
 node run-query.js queries/examples/data-freshness-check.sql
 ```
 
-### Step 5: Customize for Your Data
+### Step 4: Customize for Your Data
 ```bash
 # Copy a template and modify it for your needs
 cp queries/examples/daily-metrics.sql my-custom-analysis.sql
