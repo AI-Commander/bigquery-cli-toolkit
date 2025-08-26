@@ -34,12 +34,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wonderwhy-er/bigquery-cli-toolkit.git"
+    "url": "git+https://github.com/AI-Commander/bigquery-cli-toolkit.git"
   },
   "bugs": {
-    "url": "https://github.com/wonderwhy-er/bigquery-cli-toolkit/issues"
+    "url": "https://github.com/AI-Commander/bigquery-cli-toolkit/issues"
   },
-  "homepage": "https://github.com/wonderwhy-er/bigquery-cli-toolkit#readme",
+  "homepage": "https://github.com/AI-Commander/bigquery-cli-toolkit#readme",
   "dependencies": {},
   "devDependencies": {},
   "bin": {

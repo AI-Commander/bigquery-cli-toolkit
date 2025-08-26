@@ -8,7 +8,7 @@ Built with [Desktop Commander](https://desktopcommander.app/) to provide seamles
 
 ```bash
 # Clone the repository
-git clone https://github.com/wonderwhy-er/bigquery-cli-toolkit.git
+git clone https://github.com/AI-Commander/bigquery-cli-toolkit.git
 cd bigquery-cli-toolkit
 
 # Test installation
@@ -366,7 +366,7 @@ gcloud config set project your-project-id
 ### Development Setup
 ```bash
 # Clone and setup
-git clone https://github.com/wonderwhy-er/bigquery-cli-toolkit.git
+git clone https://github.com/AI-Commander/bigquery-cli-toolkit.git
 cd bigquery-cli-toolkit
 
 # Test installation
@@ -395,7 +395,7 @@ Desktop Commander enables you to:
 
 ```bash
 # Clone this toolkit to your workspace
-git clone https://github.com/wonderwhy-er/bigquery-cli-toolkit.git
+git clone https://github.com/AI-Commander/bigquery-cli-toolkit.git
 
 # Desktop Commander can now help you:
 # - Run queries with cost protection

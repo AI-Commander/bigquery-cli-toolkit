@@ -91,10 +91,10 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for deta
 
 ## Support
 
-- **Issues**: Report bugs and feature requests on [GitHub Issues](https://github.com/wonderwhy-er/bigquery-cli-toolkit/issues)
+- **Issues**: Report bugs and feature requests on [GitHub Issues](https://github.com/AI-Commander/bigquery-cli-toolkit/issues)
 - **Documentation**: See the `documentation/` directory for guides and examples
 - **Community**: Join discussions in GitHub Discussions (if enabled)
 
 ---
 
-*For detailed information about each release, see the [GitHub Releases](https://github.com/wonderwhy-er/bigquery-cli-toolkit/releases) page.*
+*For detailed information about each release, see the [GitHub Releases](https://github.com/AI-Commander/bigquery-cli-toolkit/releases) page.*
