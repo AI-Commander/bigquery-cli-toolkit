@@ -4,22 +4,101 @@ A powerful Node.js toolkit for running BigQuery analytics with cost protection, 
 
 Built with [Desktop Commander](https://desktopcommander.app/) to provide seamless BigQuery integration and automated analytics workflows.
 
-## 🚀 Quick Start
+## 🚀 Quick Start (0 to Results in 5 Minutes)
 
+### Step 1: Clone and Setup
 ```bash
 # Clone the repository
 git clone https://github.com/desktop-commander/bigquery-cli-toolkit.git
 cd bigquery-cli-toolkit
 
-# Test installation
+# 🚀 QUICK: Try the interactive demo immediately (works with any Google account)
+npm run demo
+
+# OR test your system setup
 node test-installation.js
-
-# Run a safe query with cost protection
-node safe-query.js queries/your-query.sql
-
-# Run a query with automatic CSV output
-node run-query.js queries/your-query.sql
 ```
+
+### Step 2: Authenticate with Google Cloud
+```bash
+# Install Google Cloud SDK (if not already installed)
+# macOS: brew install google-cloud-sdk
+# Windows: Download from https://cloud.google.com/sdk/
+# Linux: curl https://sdk.cloud.google.com | bash
+
+# Authenticate and set up your project
+gcloud auth login
+gcloud config set project YOUR_PROJECT_ID
+gcloud auth application-default login
+
+# Verify BigQuery access
+bq ls
+```
+
+### Step 3: Run Interactive Demo (Get Results Immediately!)
+```bash
+# 🎯 NEW: Run the interactive demo to see everything in action
+node interactive-demo.js
+
+# Or run individual examples:
+
+# Try the built-in test query (works with any project)
+node run-query.js queries/test-query.sql
+
+# 🔥 Try these public dataset queries (no setup needed):
+
+# See trending Wikipedia articles from the past week
+node run-query.js queries/examples/public-wikipedia-trending.sql
+
+# Analyze programming language popularity on GitHub  
+node run-query.js queries/examples/public-github-languages.sql
+
+# Web analytics insights from Google Analytics sample data
+node run-query.js queries/examples/public-google-analytics.sql
+
+# Business intelligence with NYC taxi data
+node run-query.js queries/examples/public-nyc-taxi-insights.sql
+
+# Check your BigQuery usage and costs
+node run-query.js queries/examples/query-performance.sql
+```
+
+### Step 4: Real-World Examples
+Choose your use case:
+
+#### 📊 **E-commerce Analytics** (if you have transaction data)
+```bash
+# Analyze daily sales metrics
+node run-query.js queries/examples/daily-metrics.sql --output sales-report.csv
+```
+
+#### 👥 **User Behavior Analysis** (if you have user event data)  
+```bash
+# Run cohort analysis
+node run-query.js queries/templates/user-cohort-analysis.sql --output cohorts.csv
+```
+
+#### 💰 **Cost Monitoring** (works for any project)
+```bash
+# Analyze your BigQuery usage and costs
+node run-query.js queries/examples/cost-analysis.sql --output cost-report.csv
+```
+
+#### 🔍 **Data Exploration** (works with any dataset)
+```bash
+# Check data freshness across your tables
+node run-query.js queries/examples/data-freshness-check.sql
+```
+
+### Step 5: Customize for Your Data
+```bash
+# Copy a template and modify it for your needs
+cp queries/examples/daily-metrics.sql my-custom-analysis.sql
+# Edit my-custom-analysis.sql with your table names and columns
+node run-query.js my-custom-analysis.sql --output my-results.csv
+```
+
+**🎉 You're now running BigQuery analytics with cost protection and automated CSV output!**
 
 ## 📋 Prerequisites
 

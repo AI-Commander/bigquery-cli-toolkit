@@ -9,9 +9,10 @@
     "safe-query": "node safe-query.js",
     "run-query": "node run-query.js",
     "create-view": "node create-view.js",
+    "demo": "node interactive-demo.js",
+    "install-test": "node test-installation.js",
     "lint": "echo 'Linting not configured yet'",
-    "start": "node safe-query.js --help",
-    "install-test": "node test-installation.js"
+    "start": "node interactive-demo.js"
   },
   "keywords": [
     "bigquery",
