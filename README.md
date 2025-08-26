@@ -2,6 +2,8 @@
 
 A powerful Node.js toolkit for running BigQuery analytics with cost protection, automated organization, and comprehensive data analysis capabilities. Perfect for data analysts, engineers, and anyone working with BigQuery at scale.
 
+Built with [Desktop Commander](https://desktopcommander.app/) to provide seamless BigQuery integration and automated analytics workflows.
+
 ## 🚀 Quick Start
 
 ```bash
@@ -377,6 +379,33 @@ npm test
 npm run lint
 ```
 
+## 🔗 Desktop Commander Integration
+
+This toolkit was built with [Desktop Commander](https://desktopcommander.app/), an AI-powered command-line interface that brings natural language interaction to your development workflow.
+
+### Using with Desktop Commander
+
+Desktop Commander enables you to:
+- **Run queries naturally**: "Analyze user engagement for the last 30 days"
+- **Generate reports automatically**: "Create a CSV report of daily metrics"
+- **Monitor costs**: "Check if this query is safe to run"
+- **Schedule analyses**: "Run this analysis every morning"
+
+### Installation for Desktop Commander Users
+
+```bash
+# Clone this toolkit to your workspace
+git clone https://github.com/wonderwhy-er/bigquery-cli-toolkit.git
+
+# Desktop Commander can now help you:
+# - Run queries with cost protection
+# - Generate and customize analytics reports
+# - Automate BigQuery workflows
+# - Create custom dashboards
+```
+
+Learn more about Desktop Commander at [desktopcommander.app](https://desktopcommander.app/)
+
 ## 📄 License
 
 MIT License - see [LICENSE](LICENSE) file for details.
@@ -387,4 +416,4 @@ Current version: 1.0.0
 
 ---
 
-*A powerful toolkit for BigQuery analytics with built-in safety and automation.*
+*A powerful toolkit for BigQuery analytics with built-in safety and automation. Built with [Desktop Commander](https://desktopcommander.app/) to enable seamless BigQuery integration and workflow automation.*
