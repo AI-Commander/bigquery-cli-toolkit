@@ -63,8 +63,6 @@ bq version
 # Test authentication
 bq ls  # Should list your datasets
 
-# Run installation test
-node test-installation.js
 ```
 
 ### Step 1: Clone and Setup
