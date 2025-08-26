@@ -6,6 +6,64 @@ Built with [Desktop Commander](https://desktopcommander.app/) to provide seamles
 
 ## 🚀 Quick Start (0 to Results in 5 Minutes)
 
+### Required Software
+
+#### Node.js
+- **Version**: 14.0.0 or higher
+- **Installation**:
+  - **macOS**: `brew install node` or download from [nodejs.org](https://nodejs.org/)
+  - **Windows**: Download from [nodejs.org](https://nodejs.org/) or use `winget install OpenJS.NodeJS`
+  - **Linux**: 
+    ```bash
+    # Ubuntu/Debian
+    curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+    sudo apt-get install -y nodejs
+    
+    # CentOS/RHEL/Fedora
+    sudo dnf install npm nodejs
+    ```
+
+#### Google Cloud SDK with BigQuery CLI
+- **Installation**:
+  - **macOS**: `brew install google-cloud-sdk`
+  - **Windows**: Download from [cloud.google.com/sdk](https://cloud.google.com/sdk/)
+  - **Linux**:
+    ```bash
+    curl https://sdk.cloud.google.com | bash
+    exec -l $SHELL
+    gcloud init
+    ```
+
+#### Authentication Setup
+```bash
+# Authenticate with Google Cloud
+gcloud auth login
+
+# Set your project (replace with your actual project ID)
+gcloud config set project your-bigquery-project-id
+
+# Test BigQuery access
+bq ls
+
+# If you need application default credentials
+gcloud auth application-default login
+```
+
+### Verify Installation
+```bash
+# Check Node.js version
+node --version  # Should be 14.0.0+
+
+# Check if BigQuery CLI works
+bq version
+
+# Test authentication
+bq ls  # Should list your datasets
+
+# Run installation test
+node test-installation.js
+```
+
 ### Step 1: Clone and Setup
 ```bash
 # Clone the repository
@@ -100,65 +158,6 @@ node run-query.js my-custom-analysis.sql --output my-results.csv
 
 **🎉 You're now running BigQuery analytics with cost protection and automated CSV output!**
 
-## 📋 Prerequisites
-
-### Required Software
-
-#### Node.js
-- **Version**: 14.0.0 or higher
-- **Installation**:
-  - **macOS**: `brew install node` or download from [nodejs.org](https://nodejs.org/)
-  - **Windows**: Download from [nodejs.org](https://nodejs.org/) or use `winget install OpenJS.NodeJS`
-  - **Linux**: 
-    ```bash
-    # Ubuntu/Debian
-    curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
-    sudo apt-get install -y nodejs
-    
-    # CentOS/RHEL/Fedora
-    sudo dnf install npm nodejs
-    ```
-
-#### Google Cloud SDK with BigQuery CLI
-- **Installation**:
-  - **macOS**: `brew install google-cloud-sdk`
-  - **Windows**: Download from [cloud.google.com/sdk](https://cloud.google.com/sdk/)
-  - **Linux**:
-    ```bash
-    curl https://sdk.cloud.google.com | bash
-    exec -l $SHELL
-    gcloud init
-    ```
-
-#### Authentication Setup
-```bash
-# Authenticate with Google Cloud
-gcloud auth login
-
-# Set your project (replace with your actual project ID)
-gcloud config set project your-bigquery-project-id
-
-# Test BigQuery access
-bq ls
-
-# If you need application default credentials
-gcloud auth application-default login
-```
-
-### Verify Installation
-```bash
-# Check Node.js version
-node --version  # Should be 14.0.0+
-
-# Check if BigQuery CLI works
-bq version
-
-# Test authentication
-bq ls  # Should list your datasets
-
-# Run installation test
-node test-installation.js
-```
 
 ## 🛠️ Core Tools
 
