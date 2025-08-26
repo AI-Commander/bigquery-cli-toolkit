@@ -85,6 +85,9 @@ bq ls  # Should list your datasets
 ```bash
 # Clone the repository
 git clone https://github.com/desktop-commander/bigquery-cli-toolkit.git
+# OR
+# git clone git@gh.dc.app:desktop-commander/bigquery-cli-toolkit.git
+
 cd bigquery-cli-toolkit
 
 # 🚀 QUICK: Try the interactive demo immediately (works with any Google account)
