@@ -1,7 +1,7 @@
 {
   "name": "bigquery-cli-toolkit",
   "version": "1.0.0",
-  "description": "A powerful Node.js toolkit for BigQuery analytics with cost protection, automated organization, and comprehensive data analysis capabilities. Built with Desktop Commander for seamless BigQuery integration.",
+  "description": "BigQuery analytics MCP tool for Desktop Commander. Provides cost-protected queries, automated CSV output, and AI-powered data analysis through natural language conversations.",
   "main": "safe-query.js",
   "scripts": {
     "test": "node safe-query.js queries/test-query.sql",
@@ -16,17 +16,18 @@
   },
   "keywords": [
     "bigquery",
-    "cli",
+    "mcp",
+    "model-context-protocol", 
+    "desktop-commander",
+    "ai-powered",
     "analytics",
     "data-analysis",
     "sql",
     "google-cloud",
     "cost-protection",
-    "business-intelligence",
-    "data-science",
-    "desktop-commander",
-    "ai-powered",
-    "automation"
+    "claude-desktop",
+    "cursor",
+    "natural-language"
   ],
   "author": "BigQuery CLI Contributors",
   "license": "MIT",

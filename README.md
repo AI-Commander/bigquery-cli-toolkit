@@ -1,10 +1,26 @@
-# BigQuery CLI Toolkit
+# BigQuery CLI Toolkit for Desktop Commander
 
-A powerful Node.js toolkit for running BigQuery analytics with cost protection, automated organization, and comprehensive data analysis capabilities. Perfect for data analysts, engineers, and anyone working with BigQuery at scale.
+A powerful BigQuery analytics MCP (Model Context Protocol) tool designed to work with [Desktop Commander](https://desktopcommander.app/). Provides cost-protected BigQuery queries, automated CSV output, and comprehensive data analysis through AI-powered conversations.
 
-Built with [Desktop Commander](https://desktopcommander.app/) to provide seamless BigQuery integration and automated analytics workflows.
+**🎯 Designed for use with Desktop Commander MCP clients:**
+- Claude Desktop
+- Cursor  
+- Claude Code
+- Windsurf
+- GitHub Copilot in VS Code
+- And other MCP-compatible tools
 
-## 🚀 Quick Start (0 to Results in 5 Minutes)
+## 🚀 Installation
+
+This tool is designed to work with Desktop Commander MCP. 
+
+**📖 For installation instructions, visit: [desktopcommander.app](https://desktopcommander.app/)**
+
+Once installed, you can use natural language to interact with BigQuery:
+- "Run a cost-safe BigQuery query on my user data"
+- "Analyze GitHub language trends and save as CSV"  
+- "Check my BigQuery usage costs for this month"
+- "Generate a cohort analysis report"
 
 ### Required Software
 
