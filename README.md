@@ -39,7 +39,10 @@ Built with [Desktop Commander](https://desktopcommander.app/) to provide seamles
 # Authenticate with Google Cloud
 gcloud auth login
 
-# Set your project (replace with your actual project ID)
+# Get list of projects
+gcloud projects list
+
+# Set your project (replace with your actual project ID) from list above
 gcloud config set project your-bigquery-project-id
 
 # Test BigQuery access
